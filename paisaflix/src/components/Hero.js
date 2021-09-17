@@ -1,5 +1,6 @@
 import '../styles/hero.css';
 import React from 'react';
+import {Button} from 'react-bootstrap';
 
 function Hero () {
     return (
@@ -12,7 +13,7 @@ function Hero () {
                 <h6 className="movie-duration">Duration: 2 hr 45 mins</h6>
                 <h6 className="movie-rating">Rating: 4.5</h6>
             </div>
-            <button className="btn">Watch Now</button>
+            <Button className="btn">Watch Now</Button>
         </div>
     )
 }
