@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.title{
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    left: 108px;
+    top: 781px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+.card {
+    position: absolute;
+    width: 297px;
+    height: 137px;
+    left: 108px;
+    top: 860px;
+    background: linear-gradient(180deg, rgba(23, 23, 23, 0) 0%, #171717 100%);
+}
+.card-number {
+    position: absolute;
+    width: 36px;
+    height: 48px;
+    left: 240px;
+    top: 145px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
