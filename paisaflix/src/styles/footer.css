@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Titles */
+.title{
+    position: absolute;
+    height: 88px;
+    width: 321px;
+    left: 104px;
+    top: 2638px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 88px;
+    color: #FFFFFF;
+}
+.title2{
+    height: 24px;
+    width: 63px;
+    left: 624px;
+    top: 2678px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;    
+}
+.title3{
+    height: 24px;
+    width: 100px;
+    left: 848px;
+    top: 2678px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+.title4{
+    height: 24px;
+    width: 65px;
+    left: 1108px;
+    top: 2678px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+/* Subs */
+.subtitle{
+    position: absolute;
+    height: 24px;
+    width: 130px;
+    left: 104px;
+    top: 2758px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+.sub2{
+    position: absolute;
+    width: 52px;
+    height: 32px;
+    left: 624px;
+    top: 2726px;
+    border-radius: nullpx;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #E5E5E5;
+}
+.sub3{
+    position: absolute;
+    height: 32px;
+    width: 64px;
+    left: 624px;
+    top: 2782px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E5E5E5;
+}
+.sub4{
+    position: absolute;
+    height: 32px;
+    width: 52px;
+    left: 624px;
+    top: 2838px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E5E5E5;
+}
+.sub5{
+    position: absolute;
+    height: 32px;
+    width: 86px;
+    left: 848px;
+    top: 2726px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E5E5E5;
+}
+.sub6{
+    position: absolute;
+    height: 32px;
+    width: 78px;
+    left: 848px;
+    top: 2782px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E5E5E5;
+}
+.sub7{
+    position: absolute;
+    height: 32px;
+    width: 57px;
+    left: 848px;
+    top: 2838px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E5E5E5;
+}
+.sub8{
+    position: absolute;
+    height: 32px;
+    width: 46px;
+    left: 1108px;
+    top: 2726px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E5E5E5;
+}
+.sub9{
+    position: absolute;
+    height: 32px;
+    width: 58px;
+    left: 1108px;
+    top: 2782px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E5E5E5;
+}
+.sub10{
+    position: absolute;
+    height: 32px;
+    width: 40px;
+    left: 1108px;
+    top: 2838px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E5E5E5;
+}
+.sub11{
+    position: absolute;
+    height: 24px;
+    width: 249px;
+    left: 610px;
+    top: 3000px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.sub12{
+    position: absolute;
+    width: 116px;
+    height: 24px;
+    left: 900px;
+    top: 3000px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.sub13{
+    position: absolute;
+    height: 24px;
+    width: 135px;
+    left: 1108px;
+    top: 3000px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.input{
+    height: 64px;
+    width: 282px;
+    left: 104px;
+    top: 2806px;
+    border-radius: 8px;
+    border: 1px solid #464646;
+}
+.btn-input{
+    position: absolute;
+    height: 64px;
+    width: 48px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    background: #FED530;
+}
+.form-text{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+}
