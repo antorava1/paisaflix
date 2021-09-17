@@ -4,7 +4,7 @@
     position: absolute;
     width: 608px;
     height: 64px;
-    left: 103px;
+    left: 63px;
     top: 1176px;
     font-family: DM Sans;
     font-style: normal;
@@ -13,6 +13,21 @@
     line-height: 64px;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
+}
+.subtitle{
+    position: absolute;
+    width: 256px;
+    height: 32px;
+    left: 1030px;
+    top: 1200px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: right;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FED530;
 }
 /* Cards */
 .first-movie{

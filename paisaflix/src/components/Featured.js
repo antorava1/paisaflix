@@ -6,6 +6,7 @@ function Featured () {
     return (
         <container>
             <h4 className="title">Featured</h4>
+            <h4 className="subtitle">View More</h4>
             <Card className="first-movie">
                 <Badge className="badge1">Género</Badge>
                 <Card.Text className="duration1">1hr 24mins</Card.Text>
