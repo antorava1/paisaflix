@@ -15,12 +15,50 @@
     left: 101px;
     top: 203px;
 }
-.stars {
+.star1 {
     position: absolute;
-    width: 132px;
+    width: 24px;
     height: 24px;
     left: 104px;
     top: 313px;
+    color: #FED530;
+    border-radius: 1px;
+}
+.star2{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 131px;
+    top: 313px; 
+    color: #FED530;
+    border-radius: 1px;
+}
+.star3{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 158px;
+    top: 313px;
+    color: #FED530;
+    border-radius: 1px;
+}
+.star4{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 185px;
+    top: 313px;
+    color: #FED530;
+    border-radius: 1px;
+}
+.star5{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 212px;
+    top: 313px;
+    color: #FED530;
+    border-radius: 1px;
 }
 .movie-description {
     font-family: DM Sans;
