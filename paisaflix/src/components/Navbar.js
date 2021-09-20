@@ -1,7 +1,8 @@
 import '../styles/navbar.css';
 import React from "react";
-import Hero from './Hero';
 import { Navbar, Nav, Container, Form, Image} from 'react-bootstrap';
+import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faSearch, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 
 function NavBar () {
 
@@ -11,12 +12,17 @@ function NavBar () {
                 <Container>
                     <Navbar.Brand className="navbar-title">Paisaflix</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link className="nav-link home">Home</Nav.Link>
-                        <Nav.Link className="nav-link">Contact Us</Nav.Link>
-                        <Nav.Link className="nav-link">FAQ</Nav.Link>
-                        <Nav.Link className="nav-link">Pricing</Nav.Link>
+                        <Nav.Link className="nav-link home">
+                            Home
+                            <div className="home-underlined"></div>
+                        </Nav.Link>
+                        <Nav.Link className="nav-link contact">Contact Us</Nav.Link>
+                        <Nav.Link className="nav-link faq">FAQ</Nav.Link>
+                        <Nav.Link className="nav-link pricing">Pricing</Nav.Link>
                         <Form className="d-flex">
                             {/* <Image classNamw="search" src="..src/assets/navbar/search.svg"/> */}
+                            <FontAwesomeIcon icon={faSearch} className="search"/>
+                            <FontAwesomeIcon icon={faUserCircle} className="avatar"/>
                             <Navbar.Text className="navbar-text">Soy Paisanx</Navbar.Text>
                         </Form>
                     </Nav>
