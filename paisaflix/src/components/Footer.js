@@ -2,7 +2,7 @@ import '../styles/footer.css';
 import React from 'react';
 import { InputGroup, FormControl, Button } from 'react-bootstrap';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faEnvelope, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faEnvelope, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 function Footer () {
     return(
@@ -10,10 +10,12 @@ function Footer () {
             <section className="section1">
                 <h4 className="footer-title">Paisaflix</h4>
                 <h6 className="footer-subtitle">Join Newsletters</h6>
-                <InputGroup className="input">
-                    <FormControl className="form-text" placeholder="Insert your mail here" aria-label="insert your mail here"/>
-                    <Button className="btn-input"></Button>
-                </InputGroup>
+                <container className="input">
+                    <h5 className="input-text">Insert your mail here</h5>
+                    <div className="input-rectangle">
+                        <FontAwesomeIcon icon={faArrowRight} className="arrow-right"/>
+                    </div>
+                </container>
             </section>
             <section className="section2">
                 <h4 className="product">Product</h4>
