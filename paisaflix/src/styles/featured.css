@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
-.title {
+.featured-title {
     position: absolute;
     width: 608px;
     height: 64px;
@@ -14,7 +14,7 @@
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
-.subtitle{
+.view-more{
     position: absolute;
     width: 256px;
     height: 32px;
@@ -299,7 +299,7 @@
     color: #CCCCCC;
 }
 /* Titles */
-.title1{
+.movie-title1{
     position: absolute;
     width: 636px;
     height: 64px;
@@ -313,7 +313,7 @@
     font-feature-settings: 'pnum' on, 'lnum' on; 
     color: #FFFFFF;
 }
-.title2{
+.movie-title2{
     position: absolute;
     width: 376px;
     height: 64px;
@@ -327,7 +327,7 @@
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
-.title3{
+.movie-title3{
     position: absolute;
     width: 376px;
     height: 64px;
@@ -341,7 +341,7 @@
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
-.title4{
+.movie-title4{
     position: absolute;
     width: 376px;
     height: 64px;
@@ -355,7 +355,7 @@
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
-.title5{
+.movie-title5{
     position: absolute;
     width: 376px;
     height: 64px;

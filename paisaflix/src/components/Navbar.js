@@ -2,7 +2,7 @@ import '../styles/navbar.css';
 import React from "react";
 import { Navbar, Nav, Container, Form} from 'react-bootstrap';
 
-function Home () {
+function NavBar () {
 
     return (
         <Navbar expand="sm" variant="dark">
@@ -22,4 +22,4 @@ function Home () {
     )
 }
 
-export default Home;
+export default NavBar;

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 /* Titles */
-.title{
+.footer-title{
     position: absolute;
     height: 88px;
     width: 321px;
@@ -16,7 +16,8 @@
     line-height: 88px;
     color: #FFFFFF;
 }
-.title2{
+.product{
+    position: absolute;
     height: 24px;
     width: 63px;
     left: 624px;
@@ -30,7 +31,8 @@
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;    
 }
-.title3{
+.mgroup{
+    position: absolute;
     height: 24px;
     width: 100px;
     left: 848px;
@@ -46,7 +48,8 @@
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
-.title4{
+.sitemap{
+    position: absolute;
     height: 24px;
     width: 65px;
     left: 1108px;
@@ -63,7 +66,7 @@
     color: #FFFFFF;
 }
 /* Subs */
-.subtitle{
+.footer-subtitle{
     position: absolute;
     height: 24px;
     width: 130px;

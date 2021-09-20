@@ -6,27 +6,27 @@ function Footer () {
     return(
         <footer>
             <section className="section1">
-                <h4 className="title">Paisaflix</h4>
-                <h6 className="subtitle">Join Newsletters</h6>
+                <h4 className="footer-title">Paisaflix</h4>
+                <h6 className="footer-subtitle">Join Newsletters</h6>
                 <InputGroup className="input">
                     <FormControl className="form-text" placeholder="Insert your mail here" aria-label="insert your mail here"/>
                     <Button className="btn-input"></Button>
                 </InputGroup>
             </section>
             <section className="section2">
-                <h4 className="title2">Product</h4>
+                <h4 className="product">Product</h4>
                 <h5 className="sub2">Movies</h5>
                 <h5 className="sub3">TV Show</h5>
                 <h5 className="sub4">Videos</h5>
             </section>
             <section className="section3">
-                <h4 className="title3">Media Group</h4>
+                <h4 className="mgroup">Media Group</h4>
                 <h5 className="sub5">Nice Studio</h5>
                 <h5 className="sub6">Nice News</h5>
                 <h5 className="sub7">Nice TV</h5>
             </section>
             <section className="section4">
-                <h4 className="title4">Sitemap</h4>
+                <h4 className="sitemap">Sitemap</h4>
                 <h5 className="sub8">About</h5>
                 <h5 className="sub9">Careers</h5>
                 <h5 className="sub10">Press</h5>
