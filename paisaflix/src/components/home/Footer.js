@@ -1,6 +1,5 @@
-import '../styles/footer.css';
+import '../../styles/home/footer.css';
 import React from 'react';
-import { InputGroup, FormControl, Button } from 'react-bootstrap';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faArrowRight, faEnvelope, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 

@@ -1,10 +1,8 @@
-import '../styles/hero.css';
+import '../../styles/home/hero.css';
 import React from 'react';
 import Cards from './Cards';
 import Stars from './Stars';
 import {Button} from 'react-bootstrap';
-import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 function Hero () {
     return (

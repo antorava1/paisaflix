@@ -1,6 +1,6 @@
-import '../styles/navbar.css';
+import '../../styles/home/navbar.css';
 import React from "react";
-import { Navbar, Nav, Container, Form, Image} from 'react-bootstrap';
+import { Navbar, Nav, Container, Form} from 'react-bootstrap';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faSearch, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 

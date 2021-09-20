@@ -1,4 +1,4 @@
-import '../styles/featured.css';
+import '../../styles/home/featured.css';
 import React from 'react';
 import { Card, Badge } from 'react-bootstrap';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
