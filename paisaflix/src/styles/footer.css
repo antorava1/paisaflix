@@ -245,7 +245,7 @@
     position: absolute;
     width: 116px;
     height: 24px;
-    left: 900px;
+    left: 920px;
     top: 3000px;
     font-family: Inter;
     font-style: normal;
@@ -269,6 +269,27 @@
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
+}
+.location{
+    position: absolute;
+    left: 595px;
+    top: 3003px;
+    border-radius: 0px;
+
+}
+.email{
+    position: absolute;
+    left: 900px;
+    top: 3003px;
+    border-radius: 0px;
+
+}
+.phone{
+    position: absolute;
+    left: 1088px;
+    top: 3003px;
+    border-radius: 0px;
+
 }
 .input{
     height: 64px;

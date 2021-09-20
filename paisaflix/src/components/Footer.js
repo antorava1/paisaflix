@@ -1,6 +1,8 @@
 import '../styles/footer.css';
 import React from 'react';
 import { InputGroup, FormControl, Button } from 'react-bootstrap';
+import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faEnvelope, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 function Footer () {
     return(
@@ -32,9 +34,18 @@ function Footer () {
                 <h5 className="sub10">Press</h5>
             </section>
             <section className="section5">
-                <h5 className="sub11">8819 Enrique Martinez, Bs As., 90280</h5>
-                <h5 className="sub12">hola@paisanos.io</h5>
-                <h5 className="sub13">+271 386-647-3637</h5>
+                <div className="label-info1">
+                    <FontAwesomeIcon icon={faMapMarkerAlt} className="location"/>
+                    <h5 className="sub11"> 8819 Enrique Martinez, Bs As., 90280 </h5>
+                </div>
+                <div className="label-info2">
+                    <FontAwesomeIcon icon={faEnvelope} className="email"/>
+                    <h5 className="sub12"> hola@paisanos.io </h5>
+                </div>
+                <div className="label-info3">
+                    <FontAwesomeIcon icon={faPhoneAlt} className="phone"/>
+                    <h5 className="sub13"> +271 386-647-3637 </h5>
+                </div>
             </section>
         </footer>
     )
