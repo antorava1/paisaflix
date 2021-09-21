@@ -1,48 +1,40 @@
 import '../../styles/home/hero.css';
-import React, { useState, useEffect} from 'react';
+import React, { Component } from 'react';
 import axios from 'axios';
 import Cards from './Cards';
 import Stars from './Stars';
 import {Button} from 'react-bootstrap';
 
+export default class Hero extends Component {
 
-// 'https://paisa-challange.herokuapp.com/api/v1/paisaflix/trailers' 
+    state = {
+        hero: [],
+    }
 
-const Hero = () => {
+    async componentDidMount() {
+        const res = await axios.get('https://paisa-challange.herokuapp.com/api/v1/paisaflix/hero')
+        this.setState({hero: res.data.data})
+        console.log(this.state.hero)
+    }
 
-    /* getTrailers () {
-        fetch('https://paisa-challange.herokuapp.com/api/v1/paisaflix')
-          .then(res => res.json())
-          .then(data => {
-            console.log(data)
-        })
-    } */
-
-    useEffect(() => {
-        // GET request using fetch inside useEffect React hook
-        fetch('https://paisa-challange.herokuapp.com/api/v1/paisaflix/movies')
-            .then(response => response.json())
-            .then(data => console.log(data));
-    
-    // empty dependency array means this effect will only run once (like componentDidMount in classes)
-    }, []);
-
-    return (
-        <>
-            <div>
+    render() {
+        return (
+            <>
                 <div>
-                    <h1 className="movie-title">Blade Runner</h1>
-                    <Stars/>
-                    <h6 className="movie-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
-                    <h6 className="movie-genre">Genre: Action</h6>
-                    <h6 className="movie-duration">Duration: 2 hr 45 mins</h6>
-                    <h6 className="movie-rating">Rating: 4.5</h6>
+                    {this.state.hero.map(data => (
+                        <div>
+                            <h1 className="movie-title">{data.name}</h1>
+                            <Stars/>
+                            <h6 className="movie-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
+                            <h6 className="movie-genre">Genre: {data.genre}</h6>
+                            <h6 className="movie-duration">Duration: {data.duration}</h6>
+                            <h6 className="movie-rating">Rating: {data.rating}</h6>
+                        </div>
+                    ))}
+                    <Button className="btn">Watch Now</Button>
                 </div>
-                <Button className="btn">Watch Now</Button>
-            </div>
-            <Cards />
-        </>
-    )
+                {/* {showTrailers} */}
+            </>
+        )
+    }
 }
-
-export default Hero;
