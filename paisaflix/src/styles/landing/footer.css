@@ -7,7 +7,7 @@
     height: 88px;
     width: 321px;
     left: 104px;
-    top: 2638px;
+    top: 1227px;
     border-radius: nullpx;
     font-family: DM Sans;
     font-style: normal;
@@ -21,7 +21,7 @@
     height: 24px;
     width: 63px;
     left: 624px;
-    top: 2678px;
+    top: 1267px;
     border-radius: nullpx;
     font-family: DM Sans;
     font-style: normal;
@@ -36,7 +36,7 @@
     height: 24px;
     width: 100px;
     left: 848px;
-    top: 2678px;
+    top: 1267px;
     border-radius: nullpx;
     font-family: DM Sans;
     font-size: 16px;
@@ -53,7 +53,7 @@
     height: 24px;
     width: 65px;
     left: 1108px;
-    top: 2678px;
+    top: 1267px;
     border-radius: nullpx;
     font-family: DM Sans;
     font-size: 16px;
@@ -71,7 +71,7 @@
     height: 24px;
     width: 130px;
     left: 104px;
-    top: 2758px;
+    top: 1347px;
     border-radius: nullpx;
     font-family: DM Sans;
     font-style: normal;
@@ -86,7 +86,7 @@
     width: 52px;
     height: 32px;
     left: 624px;
-    top: 2726px;
+    top: 1315px;
     border-radius: nullpx;
     border-radius: nullpx;
     font-family: DM Sans;
@@ -102,7 +102,7 @@
     height: 32px;
     width: 64px;
     left: 624px;
-    top: 2782px;
+    top: 1371px;
     border-radius: nullpx;
     font-family: DM Sans;
     font-size: 16px;
@@ -118,7 +118,7 @@
     height: 32px;
     width: 52px;
     left: 624px;
-    top: 2838px;
+    top: 1427px;
     border-radius: nullpx;
     font-family: DM Sans;
     font-size: 16px;
@@ -134,7 +134,7 @@
     height: 32px;
     width: 86px;
     left: 848px;
-    top: 2726px;
+    top: 1315px;
     border-radius: nullpx;
     font-family: DM Sans;
     font-size: 16px;
@@ -150,7 +150,7 @@
     height: 32px;
     width: 78px;
     left: 848px;
-    top: 2782px;
+    top: 1371px;
     border-radius: nullpx;
     font-family: DM Sans;
     font-size: 16px;
@@ -166,7 +166,7 @@
     height: 32px;
     width: 57px;
     left: 848px;
-    top: 2838px;
+    top: 1427px;
     border-radius: nullpx;
     font-family: DM Sans;
     font-size: 16px;
@@ -182,7 +182,7 @@
     height: 32px;
     width: 46px;
     left: 1108px;
-    top: 2726px;
+    top: 1315px;
     border-radius: nullpx;
     font-family: DM Sans;
     font-size: 16px;
@@ -198,7 +198,7 @@
     height: 32px;
     width: 58px;
     left: 1108px;
-    top: 2782px;
+    top: 1371px;
     border-radius: nullpx;
     font-family: DM Sans;
     font-size: 16px;
@@ -214,7 +214,7 @@
     height: 32px;
     width: 40px;
     left: 1108px;
-    top: 2838px;
+    top: 1427px;
     border-radius: nullpx;
     font-family: DM Sans;
     font-size: 16px;
@@ -230,7 +230,7 @@
     height: 24px;
     width: 249px;
     left: 610px;
-    top: 3000px;
+    top: 1500px;
     border-radius: nullpx;
     font-family: Inter;
     font-size: 14px;
@@ -246,7 +246,7 @@
     width: 116px;
     height: 24px;
     left: 920px;
-    top: 3000px;
+    top: 1500px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -259,7 +259,7 @@
     height: 24px;
     width: 135px;
     left: 1108px;
-    top: 3000px;
+    top: 1500px;
     border-radius: nullpx;
     font-family: Inter;
     font-size: 14px;
@@ -273,21 +273,21 @@
 .location{
     position: absolute;
     left: 595px;
-    top: 3003px;
+    top: 1503px;
     border-radius: 0px;
 
 }
 .email{
     position: absolute;
     left: 900px;
-    top: 3003px;
+    top: 1503px;
     border-radius: 0px;
 
 }
 .phone{
     position: absolute;
     left: 1088px;
-    top: 3003px;
+    top: 1503px;
     border-radius: 0px;
 
 }
@@ -295,7 +295,7 @@
     position: absolute;
     width: 282px;
     height: 64px;
-    top: 2806px;
+    top: 1395px;
     left: 104px;
     border: 1px solid #464646;
     box-sizing: border-box;

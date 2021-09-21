@@ -1,4 +1,4 @@
-import '../../styles/home/footer.css';
+import '../../styles/landing/footer.css';
 import React from 'react';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faArrowRight, faEnvelope, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
