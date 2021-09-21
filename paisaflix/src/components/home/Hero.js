@@ -1,10 +1,32 @@
 import '../../styles/home/hero.css';
-import React from 'react';
+import React, { useState, useEffect} from 'react';
+import axios from 'axios';
 import Cards from './Cards';
 import Stars from './Stars';
 import {Button} from 'react-bootstrap';
 
-function Hero () {
+
+// 'https://paisa-challange.herokuapp.com/api/v1/paisaflix/trailers' 
+
+const Hero = () => {
+
+    /* getTrailers () {
+        fetch('https://paisa-challange.herokuapp.com/api/v1/paisaflix')
+          .then(res => res.json())
+          .then(data => {
+            console.log(data)
+        })
+    } */
+
+    useEffect(() => {
+        // GET request using fetch inside useEffect React hook
+        fetch('https://paisa-challange.herokuapp.com/api/v1/paisaflix/movies')
+            .then(response => response.json())
+            .then(data => console.log(data));
+    
+    // empty dependency array means this effect will only run once (like componentDidMount in classes)
+    }, []);
+
     return (
         <>
             <div>

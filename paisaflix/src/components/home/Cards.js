@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 
 function Cards () {
     return (
-        <container>
+        <div>
             <h4 className="cards-title">Trailers</h4>
             <Card className="card">
                 <Card.Img src="https://frikivilla.com/wp-content/uploads/2019/01/avengers-endgame-marvel-frikivilla.jpg"/>
@@ -14,7 +14,7 @@ function Cards () {
                     </Card.Text>
                 </Card.Body>
             </Card>
-        </container>
+        </div>
     )
 }
 

@@ -1,6 +1,6 @@
 import '../../styles/home/navbar.css';
 import React from "react";
-import { Navbar, Nav, Container, Form} from 'react-bootstrap';
+import { Navbar, Nav, Form} from 'react-bootstrap';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faSearch, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 
@@ -9,7 +9,7 @@ function NavBar () {
     return (
         <>
             <Navbar expand="sm" variant="dark">
-                <Container>
+                <div>
                     <Navbar.Brand className="navbar-title">Paisaflix</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link className="nav-link home">
@@ -26,7 +26,7 @@ function NavBar () {
                             <Navbar.Text className="navbar-text">Soy Paisanx</Navbar.Text>
                         </Form>
                     </Nav>
-                </Container>
+                </div>
             </Navbar>
         </>
     )

@@ -9,12 +9,12 @@ function Footer () {
             <section className="section1">
                 <h4 className="footer-title">Paisaflix</h4>
                 <h6 className="footer-subtitle">Join Newsletters</h6>
-                <container className="input">
+                <div className="input">
                     <h5 className="input-text">Insert your mail here</h5>
                     <div className="input-rectangle">
                         <FontAwesomeIcon icon={faArrowRight} className="arrow-right"/>
                     </div>
-                </container>
+                </div>
             </section>
             <section className="section2">
                 <h4 className="product">Product</h4>

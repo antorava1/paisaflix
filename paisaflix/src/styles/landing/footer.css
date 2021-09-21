@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 /* Titles */
-.footer-title{
+.lfooter-title{
     position: absolute;
     height: 88px;
     width: 321px;
@@ -16,7 +16,7 @@
     line-height: 88px;
     color: #FFFFFF;
 }
-.product{
+.lproduct{
     position: absolute;
     height: 24px;
     width: 63px;
@@ -31,7 +31,7 @@
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;    
 }
-.mgroup{
+.lmgroup{
     position: absolute;
     height: 24px;
     width: 100px;
@@ -48,7 +48,7 @@
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
-.sitemap{
+.lsitemap{
     position: absolute;
     height: 24px;
     width: 65px;
@@ -66,7 +66,7 @@
     color: #FFFFFF;
 }
 /* Subs */
-.footer-subtitle{
+.lfooter-subtitle{
     position: absolute;
     height: 24px;
     width: 130px;
@@ -81,7 +81,7 @@
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
-.sub2{
+.lsub2{
     position: absolute;
     width: 52px;
     height: 32px;
@@ -97,7 +97,7 @@
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #E5E5E5;
 }
-.sub3{
+.lsub3{
     position: absolute;
     height: 32px;
     width: 64px;
@@ -113,7 +113,7 @@
     text-align: left;
     color: #E5E5E5;
 }
-.sub4{
+.lsub4{
     position: absolute;
     height: 32px;
     width: 52px;
@@ -129,7 +129,7 @@
     text-align: left;
     color: #E5E5E5;
 }
-.sub5{
+.lsub5{
     position: absolute;
     height: 32px;
     width: 86px;
@@ -145,7 +145,7 @@
     text-align: left;
     color: #E5E5E5;
 }
-.sub6{
+.lsub6{
     position: absolute;
     height: 32px;
     width: 78px;
@@ -161,7 +161,7 @@
     text-align: left;
     color: #E5E5E5;
 }
-.sub7{
+.lsub7{
     position: absolute;
     height: 32px;
     width: 57px;
@@ -177,7 +177,7 @@
     text-align: left;
     color: #E5E5E5;
 }
-.sub8{
+.lsub8{
     position: absolute;
     height: 32px;
     width: 46px;
@@ -193,7 +193,7 @@
     text-align: left;
     color: #E5E5E5;
 }
-.sub9{
+.lsub9{
     position: absolute;
     height: 32px;
     width: 58px;
@@ -209,7 +209,7 @@
     text-align: left;
     color: #E5E5E5;
 }
-.sub10{
+.lsub10{
     position: absolute;
     height: 32px;
     width: 40px;
@@ -225,7 +225,7 @@
     text-align: left;
     color: #E5E5E5;
 }
-.sub11{
+.lsub11{
     position: absolute;
     height: 24px;
     width: 249px;
@@ -241,7 +241,7 @@
     text-align: left;
     color: #FFFFFF;
 }
-.sub12{
+.lsub12{
     position: absolute;
     width: 116px;
     height: 24px;
@@ -254,7 +254,7 @@
     line-height: 24px;
     color: #FFFFFF;
 }
-.sub13{
+.lsub13{
     position: absolute;
     height: 24px;
     width: 135px;
@@ -270,28 +270,28 @@
     text-align: left;
     color: #FFFFFF;
 }
-.location{
+.llocation{
     position: absolute;
     left: 595px;
     top: 1503px;
     border-radius: 0px;
 
 }
-.email{
+.lemail{
     position: absolute;
     left: 900px;
     top: 1503px;
     border-radius: 0px;
 
 }
-.phone{
+.lphone{
     position: absolute;
     left: 1088px;
     top: 1503px;
     border-radius: 0px;
 
 }
-.input{
+.linput{
     position: absolute;
     width: 282px;
     height: 64px;
@@ -301,7 +301,7 @@
     box-sizing: border-box;
     border-radius: 8px;
 }
-.input-text{
+.linput-text{
     position: absolute;
     height: 32px;
     width: 151px;
@@ -316,7 +316,7 @@
     text-align: left;
     color: #AAAAB6;
 }
-.input-rectangle{
+.linput-rectangle{
     position: absolute;
     height: 48px;
     width: 48px;
@@ -325,7 +325,7 @@
     border-radius: 8px;
     background: #FED530;
 }
-.arrow-right{
+.larrow-right{
     position: absolute;
     height: 17.41400146484375px;
     width: 17.413999557495117px;

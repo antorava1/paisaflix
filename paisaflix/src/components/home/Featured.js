@@ -6,13 +6,13 @@ import { faClock, faEye } from '@fortawesome/free-solid-svg-icons';
 
 function Featured () {
     return (
-        <container>
+        <div>
             <h4 className="featured-title">Featured</h4>
             <h4 className="view-more">View More</h4>
             <Card className="first-movie">
                 <Badge className="badge1">Género</Badge>
                 <Card.Text className="duration1">
-                    <FontAwesomeIcon classname="clock1" icon={faClock}/>&nbsp;
+                    <FontAwesomeIcon className="clock1" icon={faClock}/>&nbsp;
                     1hr 24mins
                 </Card.Text>
                 
@@ -38,7 +38,7 @@ function Featured () {
             <Card className="third-movie">
                 <Badge className="badge3">Género</Badge>
                 <Card.Text className="duration3">
-                    <FontAwesomeIcon classname="clock1" icon={faClock}/>&nbsp;
+                    <FontAwesomeIcon className="clock1" icon={faClock}/>&nbsp;
                     1hr 24mins
                 </Card.Text>
                 
@@ -74,7 +74,7 @@ function Featured () {
                 </Card.Text>
                 <Card.Title className="movie-title5">Don't Breathe</Card.Title>
             </Card>
-        </container>
+        </div>
     )
 }
 
