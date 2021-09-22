@@ -2,12 +2,12 @@ import '../../styles/home/cards.css'
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
-function Cards () {
+const Cards = ({trailerImage}) => {
     return (
         <div>
             <h4 className="cards-title">Trailers</h4>
             <Card className="card">
-                <Card.Img src="https://frikivilla.com/wp-content/uploads/2019/01/avengers-endgame-marvel-frikivilla.jpg"/>
+                <Card.Img src={trailerImage}/>
                 <Card.Body>
                     <Card.Text className="card-number">
                     01
