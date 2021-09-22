@@ -34,7 +34,9 @@ body{
 }
 /* Cards */
 .first-movie{
-    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
     width: 817px;
     height: 560px;
     left: 63px;

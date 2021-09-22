@@ -1,29 +1,39 @@
 import '../../styles/landing/hero.css';
-import React from 'react';
+import React, { Component } from 'react';
+import axios from 'axios';
 import Cards from './Cards';
 import Stars from './Stars';
 import {Button} from 'react-bootstrap';
-import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
-function Hero () {
-    return (
-        <>
-            <div>
+export default class Hero extends Component {
+
+    state = {
+        hero: [],
+    }
+
+    async componentDidMount() {
+        const res = await axios.get('https://paisa-challange.herokuapp.com/api/v1/paisaflix/hero')
+        this.setState({hero: res.data.data})
+        console.log(this.state.hero)
+    }
+
+    render() {
+        const data = this.state.hero;
+        return (
+            <>
                 <div>
-                    <FontAwesomeIcon icon={faArrowLeft} className="arrow-left"/>
-                    <h1 className="movie-title">Blade Runner</h1>
-                    <Stars/>
-                    <h6 className="movie-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
-                    <h6 className="movie-genre">Genre: Action</h6>
-                    <h6 className="movie-duration">Duration: 2 hr 45 mins</h6>
-                    <h6 className="movie-rating">Rating: 4.5</h6>
+                    <div>
+                        <h1 className="movie-title">{data.name}</h1>
+                        <Stars/>
+                        <h6 className="movie-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
+                        <h6 className="movie-genre">Genre: {data.genre}</h6>
+                        <h6 className="movie-duration">Duration: {data.duration}</h6>
+                        <h6 className="movie-rating">Rating: {data.rating}</h6>
+                    </div>
+                    <Button className="btn">Watch Now</Button>
+                    <Cards/>
                 </div>
-                <Button className="btn">Watch Now</Button>
-            </div>
-            <Cards />
-        </>
-    )
+            </>
+        )
+    }
 }
-
-export default Hero;

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
+body {
+    height: 100vh;
+    display: grid;
+}
 .cards-title{
     position: absolute;
     width: 185px;
@@ -14,8 +18,12 @@
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding: 20px
+}
 .card1 {
-    position: absolute;
     width: 297px;
     height: 137px;
     left: 108px;

@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import { Card } from 'react-bootstrap';
 import axios from 'axios';
 
+//COMPONENTE DE CLASE CARDS
 
 export default class Cards extends Component {
     
@@ -13,50 +14,33 @@ export default class Cards extends Component {
     async componentDidMount() {
         const res = await axios.get('https://paisa-challange.herokuapp.com/api/v1/paisaflix/trailers')
         this.setState({trailers: res.data.data})
-        //console.log(this.state.trailers)
+        console.log(this.state.trailers)
     }
-
     
 
     render() {
-        const data = this.state.trailers
         return (
             <div>
                 <h4 className="cards-title">Trailers</h4>
-                <Card className="card1">
-                    <Card.Img src="https://frikivilla.com/wp-content/uploads/2019/01/avengers-endgame-marvel-frikivilla.jpg"/>
-                    <Card.Body>
-                        <Card.Text className="card-number">
-                        01
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-                {/* <Card className="card2">
-                    <Card.Img src="https://frikivilla.com/wp-content/uploads/2019/01/avengers-endgame-marvel-frikivilla.jpg"/>
-                    <Card.Body>
-                        <Card.Text className="card-number">
-                        02
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-                <Card className="card3">
-                    <Card.Img src="https://frikivilla.com/wp-content/uploads/2019/01/avengers-endgame-marvel-frikivilla.jpg"/>
-                    <Card.Body>
-                        <Card.Text className="card-number">
-                        03
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-                <Card className="card4">
-                    <Card.Img src="https://frikivilla.com/wp-content/uploads/2019/01/avengers-endgame-marvel-frikivilla.jpg"/>
-                    <Card.Body>
-                        <Card.Text className="card-number">
-                        04
-                        </Card.Text>
-                    </Card.Body>
-                </Card> */}
+                {this.state.trailers.map((data, i) => {    
+                    return (
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-md-2">
+                                    <Card className="card1" key={i}>
+                                        <Card.Img src={data.trailerImage}/>
+                                        <Card.Body>
+                                            <Card.Text className="card-number">
+                                            {`${i+1}`}
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </div>
+                            </div>
+                        </div>
+                    )
+                })}
             </div>
         )
     }
 }
-

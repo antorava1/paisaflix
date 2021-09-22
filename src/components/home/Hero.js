@@ -33,7 +33,6 @@ export default class Hero extends Component {
                     <Button className="btn">Watch Now</Button>
                     <Cards/>
                 </div>
-                {/* {showTrailers} */}
             </>
         )
     }
