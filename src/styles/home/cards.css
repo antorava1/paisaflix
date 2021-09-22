@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
-body {
-    height: 100vh;
-    display: grid;
-}
 .cards-title{
     position: absolute;
     width: 185px;
@@ -18,15 +14,14 @@ body {
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    padding: 20px
+.row {
+    display: flex;
+    column-gap: 130px;
 }
 .card1 {
-    width: 297px;
-    height: 137px;
-    left: 108px;
+    width: 207px;
+    height: 97px;
+    left: 70px;
     top: 860px;
     background: linear-gradient(180deg, rgba(23, 23, 23, 0) 0%, #171717 100%);
 }
@@ -34,8 +29,8 @@ body {
     position: absolute;
     width: 36px;
     height: 48px;
-    left: 240px;
-    top: 145px;
+    left: 180px;
+    top: 77px;
     font-family: DM Sans;
     font-style: normal;
     font-weight: bold;
