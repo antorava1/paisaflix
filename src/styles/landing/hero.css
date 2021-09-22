@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.movie-title {
+    font-family: DM Sans;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+    width: 468px;
+    height: 96px;
+    left: 101px;
+    top: 203px;
+}
+.arrow-left {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 109px;
+    top: 150px;
+    border-radius: 0px;
+    color: #FFFFFF;
+}
+.movie-description {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E5E5E5;
+    position: absolute;
+    width: 404px;
+    height: 96px;
+    left: 101px;
+    top: 401px;
+}
+.movie-genre {
+    position: absolute;
+    width: 108px;
+    height: 24px;
+    left: 101px;
+    top: 529px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+.movie-duration {
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    left: 101px;
+    top: 566px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+.movie-rating {
+    position: absolute;
+    width: 91px;
+    height: 24px;
+    left: 101px;
+    top: 603px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4.22222px 22.5185px;
+    position: absolute;
+    width: 348px;
+    height: 76.44px;
+    left: 100px;
+    top: 678px;
+    background: #FED530;
+    border-color: #FED530;
+    border-radius: 45.037px;
+    color: #2e2e2e
+}
+.btn:hover {
+    background: #2e2e2e;
+    border-color: #FED530;
+}
