@@ -3,8 +3,6 @@ import React, {Component} from 'react';
 import { Card } from 'react-bootstrap';
 import axios from 'axios';
 
-//COMPONENTE DE CLASE CARDS
-
 export default class Cards extends Component {
     
     state = {
