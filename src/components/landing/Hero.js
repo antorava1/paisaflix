@@ -23,6 +23,9 @@ export default class Hero extends Component {
             <>
                 <div>
                     <div>
+                        <div className="hero-image">
+                            <img className="hero-bg" src={data.coverImage}  alt={data.name} ></img> 
+                        </div>
                         <h1 className="movie-title">{data.name}</h1>
                         <Stars/>
                         <h6 className="movie-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>

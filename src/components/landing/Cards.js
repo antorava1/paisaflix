@@ -22,20 +22,22 @@ export default class Cards extends Component {
         return (
             <div>
                 <h4 className="cards-title">Trailers</h4>
-                {this.state.trailers.map((data, i) => {    
-                    return (
-                        <div className="cards">
-                            <Card className="card1" key={i}>
-                                <Card.Img src={data.trailerImage}/>
-                                <Card.Body>
-                                    <Card.Text className="card-number">
-                                    {`${i+1}`}
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </div>
-                    )
-                })}
+                <div className="row-l">
+                    {this.state.trailers.map((data, i) => {    
+                        return (
+                            <div className="col-md-1">
+                                <Card className="card1" key={i}>
+                                    <Card.Img src={data.trailerImage}/>
+                                    <Card.Body>
+                                        <Card.Text className="card-number">
+                                        {`${i+1}`}
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </div>
+                        )
+                    })}
+                </div>
             </div>
         )
     }

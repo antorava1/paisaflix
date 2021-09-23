@@ -60,7 +60,6 @@ body{
     height: 560px;
     left: 63px;
     top: 1296px;
-    background-color: tomato;
 }
 .movie-item-1{
     grid-area:col-2;

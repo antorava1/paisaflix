@@ -1,7 +1,7 @@
 import '../../styles/landing/navbar.css';
 import React from "react";
-import { Navbar, Nav, Form} from 'react-bootstrap';
-import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { Navbar, Nav, Form } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 
 function NavBar () {
@@ -19,9 +19,9 @@ function NavBar () {
                         <Nav.Link className="nav-link pricing">Pricing</Nav.Link>
                         <Form className="d-flex">
                             {/* <Image classNamw="search" src="..src/assets/navbar/search.svg"/> */}
-                            <FontAwesomeIcon icon={faSearch} className="search"/>
-                            <FontAwesomeIcon icon={faUserCircle} className="avatar"/>
-                            <Navbar.Text className="navbar-text">Soy Paisanx</Navbar.Text>
+                            <FontAwesomeIcon icon={faSearch} className="lsearch"/>
+                            <FontAwesomeIcon icon={faUserCircle} className="lavatar"/>
+                            <Navbar.Text className="lnavbar-text">Soy Paisanx</Navbar.Text>
                         </Form>
                     </Nav>
                 </div>

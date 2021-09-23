@@ -5,7 +5,7 @@
     width: 185px;
     height: 48px;
     left: 108px;
-    top: 781px;
+    top: 860px;
     font-family: DM Sans;
     font-style: normal;
     font-weight: bold;
@@ -14,20 +14,23 @@
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
-.card {
-    position: absolute;
-    width: 297px;
-    height: 137px;
-    left: 108px;
-    top: 860px;
+.row-l{
+    display: flex;
+    column-gap: 120px;
+}
+.card1 {
+    width: 207px;
+    height: 97px;
+    left: 110px;
+    top: 913px;
     background: linear-gradient(180deg, rgba(23, 23, 23, 0) 0%, #171717 100%);
 }
 .card-number {
     position: absolute;
     width: 36px;
     height: 48px;
-    left: 240px;
-    top: 145px;
+    left: 180px;
+    top: 77px;
     font-family: DM Sans;
     font-style: normal;
     font-weight: bold;
