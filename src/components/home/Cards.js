@@ -20,7 +20,7 @@ export default class Cards extends Component {
         return (
             <div>
                 <h4 className="cards-title">Trailers</h4>
-                <div className="row">
+                <div className="row-c">
                 {this.state.trailers.map((data, i) => {    
                     return (
                         <div className="col-md-1">

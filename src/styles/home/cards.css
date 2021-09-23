@@ -14,14 +14,14 @@
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
-.row {
+.row-c{
     display: flex;
-    column-gap: 130px;
+    column-gap: 170px;
 }
 .card1 {
     width: 207px;
     height: 97px;
-    left: 70px;
+    left: 110px;
     top: 860px;
     background: linear-gradient(180deg, rgba(23, 23, 23, 0) 0%, #171717 100%);
 }
