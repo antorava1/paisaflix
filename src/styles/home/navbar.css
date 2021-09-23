@@ -2,6 +2,8 @@
 
 .navbar {
     background: transparent;
+    z-index: 999;
+    margin-top: -20px;
 }
 .navbar-title {
     position: absolute;
@@ -86,11 +88,27 @@
     line-height: 32px;
     color: #E6E6E6;
 }
+.search{
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    left: 1120px;
+    top: 40px;
+    border-radius: 0px;
+}
+.avatar{
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    left: 1160px;
+    top: 30px;
+    border-radius: 0px;
+}
 .navbar-text {
     position: absolute;
     width: 91px;
     height: 24px;
-    left: 1100px;
+    left: 1200px;
     top: 40px;
     font-family: DM Sans;
     font-style: normal;
@@ -99,22 +117,6 @@
     line-height: 24px;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
-}
-.search{
-    position: absolute;
-    height: 24px;
-    width: 24px;
-    left: 1020px;
-    top: 40px;
-    border-radius: 0px;
-}
-.avatar{
-    position: absolute;
-    height: 48px;
-    width: 48px;
-    left: 1060px;
-    top: 30px;
-    border-radius: 0px;
 }
 
 
