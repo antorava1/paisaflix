@@ -95,12 +95,12 @@ body{
     height: 76.44px;
     left: 100px;
     top: 678px;
-    background: #FED530;
-    border-color: #FED530;
+    background: #f361f8;
+    border-color: #f361f8;
     border-radius: 45.037px;
     color: #2e2e2e
 }
 .btn:hover {
-    background: #2e2e2e;
-    border-color: #FED530;
+    background: #FED530;
+    border-color: #f361f8;
 }
