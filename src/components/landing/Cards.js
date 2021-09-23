@@ -21,15 +21,15 @@ export default class Cards extends Component {
     render() {
         return (
             <div>
-                <h4 className="cards-title">Trailers</h4>
+                <h4 className="cards-title-l">Trailers</h4>
                 <div className="row-l">
                     {this.state.trailers.map((data, i) => {    
                         return (
                             <div className="col-md-1">
-                                <Card className="card1" key={i}>
+                                <Card className="card-l" key={i}>
                                     <Card.Img src={data.trailerImage}/>
                                     <Card.Body>
-                                        <Card.Text className="card-number">
+                                        <Card.Text className="card-number-l">
                                         {`${i+1}`}
                                         </Card.Text>
                                     </Card.Body>

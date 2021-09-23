@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
-.cards-title{
+.cards-title-l{
     position: absolute;
     width: 185px;
     height: 48px;
@@ -18,14 +18,14 @@
     display: flex;
     column-gap: 180px;
 }
-.card1 {
+.card-l {
     width: 207px;
     height: 97px;
     left: 110px;
     top: 1080px;
     background: linear-gradient(180deg, rgba(23, 23, 23, 0) 0%, #171717 100%);
 }
-.card-number {
+.card-number-l {
     position: absolute;
     width: 36px;
     height: 48px;
