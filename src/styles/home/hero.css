@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
+.hero-image{
+    position: absolute;
+    width: 854.1px;
+    height: 1131px;
+    left: 495px;
+    top: 1px;
+    
+  }
+.hero-bg{
+    height: 100%;
+    width: 854.1px;
+    object-fit: cover;
+    
+}
 .movie-title {
     font-family: DM Sans;
     font-size: 72px;
