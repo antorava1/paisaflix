@@ -3,6 +3,20 @@
 body{
     background-color: #000000;
 }
+.lhero-image{
+    position: absolute;
+    width: 854.1px;
+    height: 1131px;
+    left: 495px;
+    top: 1px;
+    
+  }
+.lhero-bg{
+    height: 100%;
+    width: 854.1px;
+    object-fit: cover;
+    
+}
 .movie-title {
     font-family: DM Sans;
     font-size: 72px;
@@ -18,7 +32,7 @@ body{
     left: 101px;
     top: 203px;
 }
-.arrow-left {
+.larrow-left {
     position: absolute;
     height: 30px;
     width: 30px;

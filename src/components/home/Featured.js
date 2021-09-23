@@ -5,6 +5,16 @@ import { Card, Badge } from 'react-bootstrap';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faClock, faEye } from '@fortawesome/free-solid-svg-icons';
 
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    NavLink
+  } from "react-router-dom"
+
+
+
 
 export default class Featured extends Component {
     
@@ -20,6 +30,7 @@ export default class Featured extends Component {
 
     render() {
         return (
+            <Router>
             <div>
                 <h4 className="featured-title">Featured</h4>
                 <h4 className="view-more">View More</h4>
@@ -28,7 +39,7 @@ export default class Featured extends Component {
                         return (
                             <div className={"movie-item-"+ i}>
                                 <div className="movie-item">
-                                    <Card className="trailer-card" key={i}>
+                                    <Card className="trailer-card" key={data._id}>
                                     <img src={data.coverImage} className="featured-img" alt={data.name}></img>
                                         <Badge className={"badge-item-"+ i}>{data.genre}</Badge>
                                         <Card.Text className={"duration-item-"+ i}>
@@ -40,7 +51,9 @@ export default class Featured extends Component {
                                             <FontAwesomeIcon className="eye1" icon={faEye}/>&nbsp;
                                             {data.views} views
                                         </Card.Text>
-                                        <Card.Title className={"movie-title-item-"+ i}>{data.name}</Card.Title>
+                                        <Link to={`/landing/${data._id}`}>
+                                            <Card.Title className={"movie-title-item-"+ i}>{data.name}</Card.Title>
+                                        </Link>
                                     </Card>
                                 </div>
                             </div>
@@ -48,6 +61,7 @@ export default class Featured extends Component {
                     })}
                 </div>
             </div>
+            </Router>
         )
     }
 }

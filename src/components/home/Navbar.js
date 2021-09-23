@@ -16,7 +16,7 @@ function NavBar () {
                             Home
                             <div className="home-underlined"></div>
                         </Nav.Link>
-                        <Nav.Link className="nav-link contact">Contact Us</Nav.Link>
+                        <Nav.Link className="nav-link contact">Contact</Nav.Link>
                         <Nav.Link className="nav-link faq">FAQ</Nav.Link>
                         <Nav.Link className="nav-link pricing">Pricing</Nav.Link>
                         <Form className="d-flex">

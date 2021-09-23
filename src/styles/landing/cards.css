@@ -5,7 +5,7 @@
     width: 185px;
     height: 48px;
     left: 108px;
-    top: 860px;
+    top: 1000px;
     font-family: DM Sans;
     font-style: normal;
     font-weight: bold;
@@ -16,13 +16,13 @@
 }
 .row-l{
     display: flex;
-    column-gap: 120px;
+    column-gap: 180px;
 }
 .card1 {
     width: 207px;
     height: 97px;
     left: 110px;
-    top: 913px;
+    top: 1080px;
     background: linear-gradient(180deg, rgba(23, 23, 23, 0) 0%, #171717 100%);
 }
 .card-number {
