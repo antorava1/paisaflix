@@ -16,7 +16,6 @@ export default class Hero extends Component {
     async componentDidMount() {
         const res = await axios.get('https://paisa-challange.herokuapp.com/api/v1/paisaflix/hero')
         this.setState({hero: res.data.data})
-        console.log(this.state.hero)
     }
 
     render() {

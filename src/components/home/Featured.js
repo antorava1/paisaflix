@@ -15,7 +15,6 @@ export default class Featured extends Component {
     async componentDidMount() {
         const res = await axios.get('https://paisa-challange.herokuapp.com/api/v1/paisaflix/movies')
         this.setState({movies: res.data.data})
-        console.log(this.state.movies)
     }
 
     render() {

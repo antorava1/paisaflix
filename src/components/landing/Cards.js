@@ -13,7 +13,6 @@ export default class Cards extends Component {
     async componentDidMount() {
         const res = await axios.get('https://paisa-challange.herokuapp.com/api/v1/paisaflix/trailers/')
         this.setState({trailers: res.data.data})
-        console.log(this.state.trailers)
     }
 
     
