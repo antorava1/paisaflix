@@ -47,7 +47,8 @@ export default class Hero extends Component {
         return (
             <>
                 <div>
-                    <div className="hero-body">
+                    <div>
+                    <div className="hero-body"></div>
                         <h1 className="movie-title">{data.name}</h1>
                         <Stars/>
                         <h6 className="movie-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
@@ -58,8 +59,8 @@ export default class Hero extends Component {
                         <Cards/>
                     </div>
                     <div className="hero-image">
-                            <img className="hero-bg" src={data.coverImage}  alt={data.name} ></img> 
-                        </div>
+                        <img className="hero-bg" src={data.coverImage}  alt={data.name} ></img> 
+                    </div>
                 </div>
             </>
         )

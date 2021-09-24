@@ -25,9 +25,7 @@ export default class Hero extends Component {
             <>
                 <div>
                     <div>
-                        <div className="lhero-image">
-                            <img className="lhero-bg" src={data.coverImage}  alt={data.name} ></img> 
-                        </div>
+                    <div className="lhero-body"></div>
                         <Link to="/"><img  src={arrowleft} className="larrow-left" alt="arrow-right"/></Link>
                         <h1 className="movie-title">{data.name}</h1>
                         <Stars/>
@@ -35,9 +33,12 @@ export default class Hero extends Component {
                         <h6 className="movie-genre">Genre: {data.genre}</h6>
                         <h6 className="movie-duration">Duration: {data.duration}</h6>
                         <h6 className="movie-rating">Rating: {data.rating}</h6>
-                    </div>
                     <Button className="btn">Watch Now</Button>
                     <Cards/>
+                    </div>
+                    <div className="lhero-image">
+                        <img className="lhero-bg" src={data.coverImage}  alt={data.name} ></img> 
+                    </div>
                 </div>
             </>
         )

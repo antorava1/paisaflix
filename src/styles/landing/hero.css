@@ -3,19 +3,27 @@
 body{
     background-color: #000000;
 }
-.lhero-image{
+.lhero-body{
     position: absolute;
+    width: 854.1px;
+    height: 200%;
+    left: 495px;
+    top: -10px;
+    background-image: linear-gradient(270deg, #000000 6%, rgba(24, 24, 24, 0) 100%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.lhero-image{
+    position: relative;
     width: 854.1px;
     height: 1131px;
     left: 495px;
-    top: 1px;
-    
-  }
+    top: -110px;  
+    z-index: -1;
+}
 .lhero-bg{
     height: 100%;
     width: 854.1px;
     object-fit: cover;
-    
 }
 .movie-title {
     font-family: DM Sans;
