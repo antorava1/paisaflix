@@ -50,11 +50,10 @@ export default class Featured extends Component {
                         return (
                             <div className={"movie-id-"+ i}>
                                 <Card className="movie-card" key={data._id}>
-                                <img src={data.coverImage} className="featured-img" alt={data.name}></img>
                                     <Badge className={"badge-id-"+ i}>{data.genre}</Badge>
                                     <Card.Text className={"duration-id-"+ i}>
                                     <img  src={clock} className="clock1" alt="clock"/>&nbsp;
-                                        {movieTime} mins
+                                        {movieTime}
                                     </Card.Text>
                                     
                                     <Card.Text className={"views-id-"+ i}>
@@ -62,7 +61,7 @@ export default class Featured extends Component {
                                         {data.views} views
                                     </Card.Text>
                                         <Card.Title className={"movie-title-id-"+ i}>{data.name}</Card.Title>
-                                </Card>
+                               </Card>
                             </div>
                         )
                     })}
