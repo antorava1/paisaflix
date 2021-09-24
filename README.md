@@ -38,7 +38,7 @@ Run 👇 to build and run the debug app on your server
 npm start
 ```
 
-**Or you can see it deployed in https://arpaisaflix.netlify.app/ **
+**Or you can see it deployed in https://arpaisaflix.netlify.app/**
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
