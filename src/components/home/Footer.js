@@ -1,7 +1,11 @@
 import '../../styles/home/footer.css';
 import React from 'react';
-import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faArrowRight, faEnvelope, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import location from '../../assets/icons/location.svg';
+import mail from '../../assets/icons/mail.svg';
+import phone from '../../assets/icons/phone.svg';
+import arrowright from '../../assets/icons/arrowright.svg';
+
+
 
 function Footer () {
     return(
@@ -12,7 +16,7 @@ function Footer () {
                 <div className="input">
                     <h5 className="input-text">Insert your mail here</h5>
                     <div className="input-rectangle">
-                        <FontAwesomeIcon icon={faArrowRight} className="arrow-right"/>
+                        <img  src={arrowright} className="arrow-right" alt="arrow-right"/>
                     </div>
                 </div>
             </section>
@@ -36,15 +40,15 @@ function Footer () {
             </section>
             <section className="section5">
                 <div className="label-info1">
-                    <FontAwesomeIcon icon={faMapMarkerAlt} className="location"/>
+                    <img  src={location} className="location" alt="location"/>
                     <h5 className="sub11"> 8819 Enrique Martinez, Bs As., 90280 </h5>
                 </div>
                 <div className="label-info2">
-                    <FontAwesomeIcon icon={faEnvelope} className="email"/>
+                    <img  src={mail} className="email" alt="email"/>
                     <h5 className="sub12"> hola@paisanos.io </h5>
                 </div>
                 <div className="label-info3">
-                    <FontAwesomeIcon icon={faPhoneAlt} className="phone"/>
+                    <img  src={phone} className="phone" alt="phone"/>
                     <h5 className="sub13"> +271 386-647-3637 </h5>
                 </div>
             </section>

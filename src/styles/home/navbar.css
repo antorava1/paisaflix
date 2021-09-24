@@ -88,19 +88,19 @@
     line-height: 32px;
     color: #E6E6E6;
 }
-.search{
+.search-i{
     position: absolute;
     height: 24px;
     width: 24px;
-    left: 1120px;
+    left: 1060px;
     top: 40px;
     border-radius: 0px;
 }
-.avatar{
+.avatar-i{
     position: absolute;
     height: 48px;
     width: 48px;
-    left: 1160px;
+    left: 1140px;
     top: 30px;
     border-radius: 0px;
 }

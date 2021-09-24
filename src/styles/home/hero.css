@@ -74,6 +74,14 @@
     color: #FED530;
     border-radius: 1px;
 }
+.halfstar{
+    width: 11px;
+    height: 21px;
+    left: 224px;
+    top: 313px;
+
+    background: #000000;
+}
 .movie-description {
     font-family: DM Sans;
     font-size: 14px;

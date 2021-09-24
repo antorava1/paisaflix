@@ -2,19 +2,8 @@ import '../../styles/home/featured.css';
 import React, {Component} from 'react';
 import axios from 'axios';
 import { Card, Badge } from 'react-bootstrap';
-import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faClock, faEye } from '@fortawesome/free-solid-svg-icons';
-
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    NavLink
-  } from "react-router-dom"
-
-
-
+import clock from '../../assets/icons/clock.svg';
+import eye from '../../assets/icons/eye.svg';
 
 export default class Featured extends Component {
     
@@ -30,7 +19,6 @@ export default class Featured extends Component {
 
     render() {
         return (
-            <Router>
             <div>
                 <h4 className="featured-title">Featured</h4>
                 <h4 className="view-more">View More</h4>
@@ -43,17 +31,15 @@ export default class Featured extends Component {
                                     <img src={data.coverImage} className="featured-img" alt={data.name}></img>
                                         <Badge className={"badge-item-"+ i}>{data.genre}</Badge>
                                         <Card.Text className={"duration-item-"+ i}>
-                                            <FontAwesomeIcon className="clock1" icon={faClock}/>&nbsp;
+                                        <img  src={clock} className="clock1" alt="clock"/>&nbsp;
                                             {data.duration} mins
                                         </Card.Text>
                                         
                                         <Card.Text className={"views-item-"+ i}>
-                                            <FontAwesomeIcon className="eye1" icon={faEye}/>&nbsp;
+                                        <img  src={eye} className="eye1" alt="eye"/>&nbsp;
                                             {data.views} views
                                         </Card.Text>
-                                        <Link to={`/landing/${data._id}`}>
                                             <Card.Title className={"movie-title-item-"+ i}>{data.name}</Card.Title>
-                                        </Link>
                                     </Card>
                                 </div>
                             </div>
@@ -61,7 +47,6 @@ export default class Featured extends Component {
                     })}
                 </div>
             </div>
-            </Router>
         )
     }
 }
