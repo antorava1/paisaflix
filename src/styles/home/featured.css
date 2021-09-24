@@ -34,14 +34,14 @@ body{
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #f361f8;
 }
-.trailer-card{
+.movie-card{
     background-color: #000000;
     border-color: #000000;
 }
 .featured-img{
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 .featured-cards{
     display:grid;
@@ -53,15 +53,16 @@ body{
             "xl         xl        col-2 "
             "col-3      col-4     col-5" ;
 }
-.movie-item-0{
+.movie-id-0{
     grid-area: xl;
     position: absolute;
     width: 817px;
     height: 560px;
     left: 63px;
     top: 1296px;
+    background-color: violet;
 }
-.movie-item-1{
+.movie-id-1{
     grid-area:col-2;
     position: absolute;
     width: 400px;
@@ -69,7 +70,7 @@ body{
     left: 896px;
     top: 1296px;
 }
-.movie-item-2{
+.movie-id-2{
     grid-area: col-3;
     position: absolute;
     width: 400px;
@@ -77,7 +78,7 @@ body{
     left: 64px;
     top: 1872px;
 }
-.movie-item-3{
+.movie-id-3{
     grid-area: col-4;
     position: absolute;
     width: 400px;
@@ -85,7 +86,7 @@ body{
     left: 480px;
     top: 1872px;
 }
-.movie-item-4{
+.movie-id-4{
     grid-area: col-5;
     position: absolute;
     width: 400px;
@@ -94,7 +95,7 @@ body{
     top: 1872px;
 }
 /* Badges */
-.badge-item-0{
+.badge-id-0{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -113,7 +114,7 @@ body{
     margin: 16px 0px;
     color: #2E2E2E;
 }
-.badge-item-1{
+.badge-id-1{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -132,7 +133,7 @@ body{
     margin: 16px 0px;
     color: #2E2E2E
 }
-.badge-item-2{
+.badge-id-2{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -151,7 +152,7 @@ body{
     margin: 16px 0px;
     color:#2E2E2E
 }
-.badge-item-3{
+.badge-id-3{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -170,7 +171,7 @@ body{
     margin: 16px 0px;
     color: #2e2e2e;
 }
-.badge-item-4{
+.badge-id-4{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -191,7 +192,7 @@ body{
 }
 
 /* Duration */
-.duration-item-0{
+.duration-id-0{
     position: absolute;
     width: 114px;
     height: 24px;
@@ -204,7 +205,7 @@ body{
     line-height: 24px;
     color: #CCCCCC;
 }
-.duration-item-1{
+.duration-id-1{
     position: absolute;
     width: 114px;
     height: 24px;
@@ -217,7 +218,7 @@ body{
     line-height: 24px;
     color: #CCCCCC;
 }
-.duration-item-2{
+.duration-id-2{
     position: absolute;
     width: 114px;
     height: 24px;
@@ -230,7 +231,7 @@ body{
     line-height: 24px;
     color: #CCCCCC;
 }
-.duration-item-3{
+.duration-id-3{
     position: absolute;
     width: 114px;
     height: 24px;
@@ -243,7 +244,7 @@ body{
     line-height: 24px;
     color: #CCCCCC;
 }
-.duration-item-4{
+.duration-id-4{
     position: absolute;
     width: 114px;
     height: 24px;
@@ -257,7 +258,7 @@ body{
     color: #CCCCCC;
 }
 /* Views */
-.views-item-0{
+.views-id-0{
     position: absolute;
     width: 114px;
     height: 24px;
@@ -270,7 +271,7 @@ body{
     line-height: 24px;
     color: #CCCCCC;
 }
-.views-item-1{
+.views-id-1{
     position: absolute;
     width: 114px;
     height: 24px;
@@ -283,7 +284,7 @@ body{
     line-height: 24px;
     color: #CCCCCC;
 }
-.views-item-2{
+.views-id-2{
     position: absolute;
     width: 114px;
     height: 24px;
@@ -296,7 +297,7 @@ body{
     line-height: 24px;
     color: #CCCCCC;
 }
-.views-item-3{
+.views-id-3{
     position: absolute;
     width: 114px;
     height: 24px;
@@ -309,7 +310,7 @@ body{
     line-height: 24px;
     color: #CCCCCC;
 }
-.views-item-4{
+.views-id-4{
     position: absolute;
     width: 114px;
     height: 24px;
@@ -323,7 +324,7 @@ body{
     color: #CCCCCC;
 }
 /* Titles */
-.movie-title-item-0{
+.movie-title-id-0{
     position: absolute;
     width: 636px;
     height: 64px;
@@ -337,7 +338,7 @@ body{
     font-feature-settings: 'pnum' on, 'lnum' on; 
     color: #FFFFFF;
 }
-.movie-title-item-1{
+.movie-title-id-1{
     position: absolute;
     width: 376px;
     height: 64px;
@@ -351,7 +352,7 @@ body{
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
-.movie-title-item-2{
+.movie-title-id-2{
     position: absolute;
     width: 376px;
     height: 64px;
@@ -365,7 +366,7 @@ body{
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
-.movie-title-item-3{
+.movie-title-id-3{
     position: absolute;
     width: 376px;
     height: 64px;
@@ -379,7 +380,7 @@ body{
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
 }
-.movie-title-item-4{
+.movie-title-id-4{
     position: absolute;
     width: 376px;
     height: 64px;
