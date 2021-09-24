@@ -19,34 +19,33 @@ export default class Featured extends Component {
 
     render() {
 
+        const formattingTime= (minutes)=>{
+            if( minutes.length >= 1 ) {
+
+                return minutes.map( x => {
+                    let min = x.duration;
+                    let hours = Math.floor(min/60);
+                    min = min % 60;
+
+                    return `${hours}hr ${min} min`;
+                })
+            }
+            else
+            {
+                let min = minutes.duration;
+                let hours = Math.floor(min/60);
+                min = min % 60;
+                return `${hours}hr ${min} min`;
+            }
+        }
+
         return (
             <div>
                 <h4 className="featured-title">Featured</h4>
                 <h4 className="view-more">View More</h4>
                 <div className="featured-cards">
                     {this.state.movies.map((data, i) => {   
-                        const formattingTime= (minutes)=>{
-                            if( minutes.length >= 1 ) {
-
-                                return minutes.map( x => {
-                                    let min = x.duration;
-                                    let hours = Math.floor(min/60);
-                                    min = min % 60;
-
-                                    return `${hours}hr ${min} min`;
-                                })
-                            }
-                            else
-                            {
-                                let min = minutes.duration;
-                                let hours = Math.floor(min/60);
-                                min = min % 60;
-                                return `${hours}hr ${min} min`;
-                            }
-                        }
-
                         const movieTime = formattingTime(data);
-                        
                         return (
                             <div className={"movie-item-"+ i}>
                                 <div className="movie-item">
