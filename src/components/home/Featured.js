@@ -4,7 +4,6 @@ import axios from 'axios';
 import { Card, Badge } from 'react-bootstrap';
 import clock from '../../assets/icons/clock.svg';
 import eye from '../../assets/icons/eye.svg';
-import { Link } from "react-router-dom"
 
 
 export default class Featured extends Component {
@@ -50,22 +49,20 @@ export default class Featured extends Component {
                         const movieTime = formattingTime(data);
                         return (
                             <div className={"movie-id-"+ i}>
-                                <Link to={`/landing/${data._id}`} className="trailer-id">  
-                                    <Card className="movie-card" key={data._id}>
-                                    <img src={data.coverImage} className="featured-img" alt={data.name}></img>
-                                        <Badge className={"badge-id-"+ i}>{data.genre}</Badge>
-                                        <Card.Text className={"duration-id-"+ i}>
-                                        <img  src={clock} className="clock1" alt="clock"/>&nbsp;
-                                            {movieTime} mins
-                                        </Card.Text>
-                                        
-                                        <Card.Text className={"views-id-"+ i}>
-                                        <img  src={eye} className="eye1" alt="eye"/>&nbsp;
-                                            {data.views} views
-                                        </Card.Text>
-                                            <Card.Title className={"movie-title-id-"+ i}>{data.name}</Card.Title>
-                                    </Card>
-                                </Link>
+                                <Card className="movie-card" key={data._id}>
+                                <img src={data.coverImage} className="featured-img" alt={data.name}></img>
+                                    <Badge className={"badge-id-"+ i}>{data.genre}</Badge>
+                                    <Card.Text className={"duration-id-"+ i}>
+                                    <img  src={clock} className="clock1" alt="clock"/>&nbsp;
+                                        {movieTime} mins
+                                    </Card.Text>
+                                    
+                                    <Card.Text className={"views-id-"+ i}>
+                                    <img  src={eye} className="eye1" alt="eye"/>&nbsp;
+                                        {data.views} views
+                                    </Card.Text>
+                                        <Card.Title className={"movie-title-id-"+ i}>{data.name}</Card.Title>
+                                </Card>
                             </div>
                         )
                     })}
