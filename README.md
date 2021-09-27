@@ -11,9 +11,8 @@ Home:
 - Footer with info
 
 Landing:
- Hero, where we see all the main movie with their description, duration, genre and rating.
+- Hero, where we see all the main movie with their description, duration, genre and rating.
 - Trailers, that show us five trailers of different movies.
-- Featured, where we see five cards with movies, their duration, views and name.
 - Footer with info
 
 ## App Preview
